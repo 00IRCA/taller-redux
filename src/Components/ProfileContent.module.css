@@ -1,0 +1,30 @@
+.contentSelection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: solid white 1px;
+    padding-bottom: 5px;
+}
+
+.contentSelection a {
+    transition: 100ms;
+    text-decoration: unset;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.contentSelection a:hover {
+    transition: 100ms;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.contentSelection a:active {
+    transition: 100ms;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,22 @@
+.toDoItem {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+}
+
+.editText {
+    align-self: start;
+}
+
+.delete, .edit {
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: red;
+}
+
+.edit:hover{
+    color: lightgreen;
+}

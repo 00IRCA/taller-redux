@@ -1,0 +1,12 @@
+.page {
+    width: 80%;
+    margin: 0px auto;
+    min-height: 100vh;
+    padding: 10px 50px;
+    background-color: #4e6186;
+}
+
+.secretContainer {
+    display: flex;
+    justify-content: center;
+}
