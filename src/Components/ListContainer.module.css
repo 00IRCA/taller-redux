@@ -1,0 +1,52 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+    gap: 10px;
+}
+
+.listItem{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.listItem:hover{
+    background-color: black;
+}
+
+.listItem a {
+    display: inline-block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.listItem:hover a{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.listContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+
+}
+
+.listTitle {
+    font-size: 28px;
+    text-align: center;
+}
+
+.toDoLists {
+    padding: 15px;
+}
+
+.toDoList {
+    border-left: 1px solid white;
+    width: 100%;
+}

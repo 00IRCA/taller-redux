@@ -1,0 +1,52 @@
+.createListPage {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.preview {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+}
+
+.PostForm {
+    grid-column: 2/3;
+    justify-self: center;
+    border-left: 2px solid white;
+    width: 100%;
+    padding: 20px;
+}
+
+.formSection {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button {
+    border-radius: 10px;
+    text-align: center;
+    padding: 6px;
+    transition: 100ms;
+    text-decoration: unset;
+    border: unset;
+    background-color: rgb(172, 0, 0);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.textArea {
+    width: 400px;
+    height: 100px;
+}

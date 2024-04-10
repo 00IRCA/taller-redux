@@ -1,0 +1,58 @@
+.createListPage {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.preview {
+    grid-column: 1/2;
+}
+
+.listForm {
+    grid-column: 2/3;
+    justify-self: center;
+    border-left: 2px solid white;
+    width: 100%;
+    padding: 20px;
+}
+
+.formSection {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button {
+    border-radius: 10px;
+    text-align: center;
+    padding: 6px;
+    transition: 100ms;
+    text-decoration: unset;
+    border: unset;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.addButton {
+    background-color: rgb(0, 191, 255);
+    margin-left: 5px;
+}
+
+.saveButton {
+    background-color: rgb(172, 0, 0);
+}
+
+.addButton:hover, .saveButton:hover{
+    background-color: rgb(0, 21, 115);
+    color: white;
+}

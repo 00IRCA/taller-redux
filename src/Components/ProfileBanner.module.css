@@ -1,0 +1,21 @@
+.profileBanner {
+    background-color: #547dca;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr;
+    grid-template-rows: 1fr;
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+.avatar {
+    height: 100px;
+}
+
+.avatar-image {
+    height: 100%;
+    border-radius: 15px;
+}
